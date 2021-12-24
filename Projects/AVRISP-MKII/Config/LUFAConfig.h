@@ -102,7 +102,7 @@
 		/* General USB Driver Related Tokens: */
 		#define USE_STATIC_OPTIONS               (USB_DEVICE_OPT_FULLSPEED | USB_OPT_RC32MCLKSRC | USB_OPT_BUSEVENT_PRIHIGH)
 //		#define USB_STREAM_TIMEOUT_MS            {Insert Value Here}
-//		#define NO_LIMITED_CONTROLLER_CONNECT
+// 		#define NO_LIMITED_CONTROLLER_CONNECT
 		#define NO_SOF_EVENTS
 
 		/* USB Device Mode Driver Related Tokens: */
@@ -111,10 +111,10 @@
 //		#define USE_EEPROM_DESCRIPTORS
 		#define NO_INTERNAL_SERIAL
 		#define FIXED_CONTROL_ENDPOINT_SIZE      16
-		#define DEVICE_STATE_AS_GPIOR            0
+// 		#define DEVICE_STATE_AS_GPIOR            0
 		#define FIXED_NUM_CONFIGURATIONS         1
 //		#define CONTROL_ONLY_DEVICE
-		#define MAX_ENDPOINT_INDEX               4
+		#define MAX_ENDPOINT_INDEX               8
 		#define NO_DEVICE_REMOTE_WAKEUP
 		#define NO_DEVICE_SELF_POWER
 
